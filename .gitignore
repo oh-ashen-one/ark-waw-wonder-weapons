@@ -1,0 +1,23 @@
+# Never commit game data or extracted copyrighted assets
+*.iso
+*.xex
+*.ff
+*.pak
+*.ucas
+*.utoc
+*.ark
+extracted/
+game-data/
+bottles/
+captures/
+*.mp4
+*.mov
+.DS_Store
+.work/
+modsrc/ArkMashup/SM_*
+modsrc/ArkMashup/ray_gun*
+modsrc/ArkMashup/M_SM_*
+
+# python caches (new ones)
+tools/__pycache__/b*.pyc
+__pycache__/

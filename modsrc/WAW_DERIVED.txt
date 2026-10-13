@@ -1,0 +1,20 @@
+# Assets imported from the owner's World at War copy (Activision IP). NEVER commit these; rebuild locally from
+# tools/waw_convert (FBX) + ModKit import. tools/sync_modsrc.sh excludes everything listed here.
+SM_RayGun.uasset
+ray_gun.uasset
+M_SM_RayGun.uasset
+SM_Wunderwaffe.uasset
+tesla_c.uasset
+M_SM_Wunderwaffe.uasset
+# Sound waves, zombie and viewmodel meshes/skeletons/physics assets/animations, imported textures (allowlist in sync_modsrc.sh
+# already excludes these; listed for clarity)
+S_RayGun_*
+S_Waffe_*
+S_Zmb_*
+A_Zmb_*
+A_RayGun_VM_*
+A_Waffe_VM_*
+SK_*
+char_ger_*
+viewmodel_*
+zombie_*
